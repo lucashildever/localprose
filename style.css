@@ -9,9 +9,17 @@
 }
 
 #logo {
-    padding-left: 7vw;
-    position: absolute;
-    margin-top: 1%;
+    /* padding-left: 7vw; */
+    /* position: absolute; */
+    /* margin-top: 1%; */
+    padding-top: 2%; 
+    /* right: 10%;
+    left: 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
 }
 
 #hero {
@@ -33,19 +41,23 @@
 
 #hero h1 {
     position: absolute; 
-    top: 35%; 
-    transform: translate(12%, -50%);
+    /* transform: translate(12%, -50%); */
+    /* width: 85%; */
     font-size: 100%;
-    width: 80%;
     line-height: 110%;
     text-align: center;
+    top: 15%; 
+    right: 10%;
+    left: 10%;
 }
 
 #hero div img{
-    height: 60%;
+    height: 75%;
     position: absolute;
+    top: 40%; 
     right: 10%;
-    transform: translate(-0%, 85%);
+    left: 10%;
+    /* transform: translateY(85%); */
 }
 
 .desc-section {
