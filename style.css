@@ -36,7 +36,7 @@
     position: absolute; 
     top: 50%; 
     transform: translate(0, -50%);
-    font-size: 5vw;
+    font-size: 4.5vw;
     width: 42vw;
 }
 
@@ -236,7 +236,7 @@
 }
 
 .section-content3 img {
-    height: 100vh;
+    height: 119vw;
 }
 
 footer {
@@ -332,43 +332,43 @@ a {
     }
 }
 
-@media screen and (max-width: 624px) {
+@media screen and (max-width: 624px) and (min-height: 1000px){
     #hero {
         background-image: url(img/pfhome1.svg);
     }
     #hero h1 {
-        font-size: 5vw;
+        font-size: 10vw;
         line-height: 120%;
         text-align: center;
-        transform: translate(12vw, -27vw);
-        width: 60vw;
+        transform: translate(8vw, -60vw);
+        width: 68vw;
     }
     #hero div img {
-        height: 66vw;
-        transform: translateX(-8vw);
+        height: 91vw;
+        transform: translate(4vw, -31vw);
     }
     .desc-app {
-        font-size: 3vw;
-        width: 90vw;
+        font-size: 5vw;
+        width: 85vw;
     }
     #section1 .section-content h2 {
-        font-size: 4.4vw;
-        margin-top: 8vh;
+        font-size: 7vw;
+        margin-top: 13vh;
         text-align: center;
-        transform: translateX(-13vw);
+        transform: translateX(2vw);
     }
     .section-content img {
-        height: 90vw;
-        transform: translate(13vw, 15vw);
+        height: 124vw;
+        transform: translate(6vw, 35vw);
     }
     #section1 {
         margin-bottom: 122vh;
     }
     .section-desc {
         position: absolute;
-        right: 27vw;
-        bottom: -142vh;
-        height: 410px;
+        right: 13vw;
+        bottom: -107vh;
+        height: 550px;
         background-image: url(img/pfdesc.svg);
         background-size: 90%;
         background-repeat: no-repeat;
@@ -379,13 +379,13 @@ a {
         font-weight: 700;
     }
     .section-desc h3 {
-        font-size: 3vw;
+        font-size: 5vw;
         padding-top: 8vh;
     }    
     #section2 .section-content2 h2 {
-        font-size: 4.4vw;
-        margin-top: 14vh;
-        left: 28vw;
+        font-size: 7vw;
+        margin-top: 12vh;
+        left: 15vw;
         text-align: center;
     }
     .section-content2 img {
@@ -395,17 +395,17 @@ a {
         margin-top: 24vh;
     }
     #section2 {
-        margin-bottom: 122vh;
+        margin-bottom: 103vh;
     }
     .section-desc2 h3 {
-        font-size: 3vw;
-        padding-top: 8vh;
+        font-size: 5vw;
+        padding-top: 3vh;
     }
     .section-desc2 {
         position: absolute;
-        left: 31vw;
-        bottom: -142vh;
-        height: 410px;
+        left: 17vw;
+        bottom: -91vh;
+        height: 538px;
         background-image: url(img/pfdesc.svg);
         background-size: 90%;
         background-repeat: no-repeat;
@@ -419,28 +419,25 @@ a {
         font-family: 'Rubik';
         font-style: normal;
         font-weight: 700;
-        font-size: 4.4vw;
+        font-size: 7vw;
         color: white;
         margin-top: 17vh;
         position: absolute;
-        right: 25vw;
-    }
-    .section-content3 img {
-        height: 100vh;
-        transform: translate(14vw, 17vw);
+        right: 10vw;
+        text-align: center;
     }
     #section3 {
-        margin-bottom: 122vh;
+        margin-bottom: 112vh;
     }
     .section-content3 img {
-        height: 103vh;
-        transform: translate(17vw, 13vw);
+        height: 120vw;
+        transform: translate(6vw, 34vw);
     }
     .section-desc3 {
         position: absolute;
-        right: 30vw;
-        bottom: -127vh;
-        height: 350px;
+        right: 16vw;
+        bottom: -104vh;
+        height: 523px;
         background-image: url(img/pfdesc.svg);
         background-size: 90%;
         background-repeat: no-repeat;
@@ -453,7 +450,157 @@ a {
     #footer-content {
         margin-left: 39vw;
     }
-    
+    .section-desc3 h3 {
+        font-size: 5vw;
+    }
+    footer {
+        background-color: black;
+        height: 60vh;
+        color: white;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4vw;
+        position: relative;
+    }
+    #footer-content {
+        margin-left: 19vw;
+    }
+}
+@media screen and (max-width: 624px){
+    #hero {
+        background-image: url(img/pfhome1.svg);
+    }
+    #hero h1 {
+        font-size: 10vw;
+        line-height: 120%;
+        text-align: center;
+        transform: translate(8vw, -60vw);
+        width: 68vw;
+    }
+    #hero div img {
+        height: 91vw;
+        transform: translate(4vw, -31vw);
+    }
+    .desc-app {
+        font-size: 5vw;
+        width: 85vw;
+    }
+    #section1 .section-content h2 {
+        font-size: 7vw;
+        margin-top: 13vh;
+        text-align: center;
+        transform: translateX(2vw);
+    }
+    .section-content img {
+        height: 124vw;
+        transform: translate(6vw, 35vw);
+    }
+    #section1 {
+        margin-bottom: 122vh;
+    }
+    .section-desc {
+        position: absolute;
+        right: 13vw;
+        bottom: -107vh;
+        height: 550px;
+        background-image: url(img/pfdesc.svg);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #134D3C;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+    }
+    .section-desc h3 {
+        font-size: 5vw;
+        padding-top: 8vh;
+    }    
+    #section2 .section-content2 h2 {
+        font-size: 7vw;
+        margin-top: 12vh;
+        left: 15vw;
+        text-align: center;
+    }
+    .section-content2 img {
+        position: absolute;
+        right: 12vw;
+        height: 84vw;
+        margin-top: 24vh;
+    }
+    #section2 {
+        margin-bottom: 103vh;
+    }
+    .section-desc2 h3 {
+        font-size: 5vw;
+        padding-top: 3vh;
+    }
+    .section-desc2 {
+        position: absolute;
+        left: 17vw;
+        bottom: -91vh;
+        height: 538px;
+        background-image: url(img/pfdesc.svg);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #134D3C;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+    }
+    #section3 .section-content3 h2 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 7vw;
+        color: white;
+        margin-top: 17vh;
+        position: absolute;
+        right: 10vw;
+        text-align: center;
+    }
+    #section3 {
+        margin-bottom: 112vh;
+    }
+    .section-content3 img {
+        height: 120vw;
+        transform: translate(6vw, 34vw);
+    }
+    .section-desc3 {
+        position: absolute;
+        right: 16vw;
+        bottom: -104vh;
+        height: 523px;
+        background-image: url(img/pfdesc.svg);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #134D3C;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+    }
+    #footer-content {
+        margin-left: 39vw;
+    }
+    .section-desc3 h3 {
+        font-size: 5vw;
+    }
+    footer {
+        background-color: black;
+        height: 60vh;
+        color: white;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4vw;
+        position: relative;
+    }
+    #footer-content {
+        margin-left: 19vw;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -490,7 +637,7 @@ a {
         font-weight: 700;
     }
     .section-content3 img {
-        height: 103vh;
+        height: 112vw;
         transform: translate(13vw, 17vw);
     }
     .section-desc3 h3 {
@@ -597,7 +744,7 @@ a {
         right: 20vw;
     }
     .section-content3 img {
-        height: 114vh;
+        height: 114vw;
         transform: translate(5vw, 17vw);
     }
     .section-desc3 h3 {
@@ -673,7 +820,7 @@ a {
         font-weight: 700;
     }
     .section-content3 img {
-        height: 96vh;
+        height: 96vw;
         transform: translate(5vw, 17vw);
     }
     .section-desc3 {
