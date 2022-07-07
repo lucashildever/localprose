@@ -315,6 +315,17 @@ a {
     }
 
 
+    #section1 {
+        height: 267px;
+        background-color: black;
+        background-image: url(img/pf1.svg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        padding-left: 10vw;
+        position: relative;
+        margin-bottom: 930px;
+    }
     #section1 .section-content h2 {
         font-family: 'Rubik';
         font-style: normal;
@@ -328,7 +339,7 @@ a {
     }
     .section-content img {
         width: 80vw;
-        transform: translate(-6px, 100px);
+        transform: translate(-6px, 125px);
     }
 
     .section-content2 img {
@@ -338,5 +349,24 @@ a {
     }
     .section-content3 img {
         width: 80vw;
+    }
+    .section-desc {
+        position: absolute;
+        right: 16vw;
+        bottom: -865px;
+        height: 350px;
+        background-image: url(img/pfdesc.svg);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #134D3C;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+    }
+    .section-desc h3 {
+        transform: translateY(110px);
+        font-size: 135%;
+        text-align: center;
     }
 }
