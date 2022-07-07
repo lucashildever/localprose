@@ -330,4 +330,13 @@ a {
         width: 80vw;
         transform: translate(-6px, 100px);
     }
+
+    .section-content2 img {
+        position: absolute;
+        right: 5vw;
+        width: 90vw;
+    }
+    .section-content3 img {
+        width: 80vw;
+    }
 }
