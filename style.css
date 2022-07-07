@@ -367,7 +367,7 @@ a {
     .section-desc {
         position: absolute;
         /* right: 16vw; */
-        bottom: -885px;
+        bottom: -865px;
         height: 350px;
         background-image: url(img/pfdesc.svg);
         background-size: 90%;
