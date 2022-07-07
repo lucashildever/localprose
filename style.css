@@ -302,7 +302,7 @@ a {
         height: auto;
         position: absolute;
         right: 2vw;
-        padding-top: 60vh;
+        padding-top: 50vh;
     }
     .desc-app {
         position: absolute;
@@ -319,15 +319,15 @@ a {
         font-family: 'Rubik';
         font-style: normal;
         font-weight: 700;
-        font-size: 7vw;
+        font-size: 6vw;
         color: white;
         margin-top: 12vh;
         position: absolute;
-        right: 12vw;
+        right: 16vw;
         text-align: center;
     }
     .section-content img {
-        width: 85vw;
-        transform: translate(-13px, 100px);
+        width: 80vw;
+        transform: translate(-6px, 100px);
     }
 }
