@@ -350,7 +350,7 @@ a {
     .section-content3 img {
         width: 80vw;
     }
-    .section-desc {
+    /* .section-desc {
         position: absolute;
         right: 16vw;
         bottom: -865px;
@@ -363,6 +363,21 @@ a {
         font-family: 'Rubik';
         font-style: normal;
         font-weight: 700;
+    } */
+    .section-desc {
+        position: absolute;
+        /* right: 16vw; */
+        bottom: -885px;
+        height: 350px;
+        background-image: url(img/pfdesc.svg);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #134D3C;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        transform: translate(5vw, 0px);
     }
     .section-desc h3 {
         transform: translateY(110px);
