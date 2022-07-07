@@ -287,16 +287,17 @@ a {
     #hero h1 {
         position: absolute;
         top: 50%;
-        transform: translate(8%, -140px);
+        transform: translate(8%, -150px);
         font-size: 8vw;
         width: 75vw;
         line-height: 6vw;
         text-align: center;
     }
     #hero div img {
-        height: 75vw;
+        width: 90vw;
+        height: auto;
         position: absolute;
-        right: 12vw;
+        right: 2vw;
         padding-top: 310px;
     }
 }
