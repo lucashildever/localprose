@@ -296,10 +296,10 @@ a {
     #hero h1 {
         position: absolute;
         top: 50%;
-        transform: translate(8%, -25vh);
-        font-size: 8vw;
-        width: 75vw;
-        line-height: 6vw;
+        transform: translate(0%, -25vh);
+        font-size: 9vw;
+        width: 85vw;
+        line-height: 9vw;
         text-align: center;
     }
     /* #hero div img {
