@@ -9,21 +9,14 @@
 }
 
 #logo {
-    /* padding-left: 7vw; */
-    /* position: absolute; */
-    /* margin-top: 1%; */
-    padding-top: 2%; 
-    /* right: 10%;
-    left: 10%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
+    padding-left: 7vw;
+    position: absolute;
+    margin-top: 1%;
 }
 
 #hero {
-    height: 100vh;
+    height: 700px;
+    padding-left: 7vw;
 
     background-color: black;
     background-image: url(img/pfhome.svg);
@@ -40,23 +33,19 @@
 }
 
 #hero h1 {
-    position: absolute; 
-    /* transform: translate(12%, -50%); */
-    /* width: 85%; */
-    font-size: 100%;
-    line-height: 110%;
-    text-align: center;
-    top: 15%; 
-    right: 10%;
-    left: 10%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 5vw;
+    width: 45vw;
+    line-height: 6vw;
 }
 
-#hero div img{
-    height: 75%;
+#hero div img {
+    height: 47vw;
     position: absolute;
-    top: 40%; 
-    right: 10%;
-    left: 10%;
+    right: 5vw;
+    padding-top: 130px;
 }
 
 .desc-section {
@@ -69,7 +58,7 @@
 }
 
 #desc-app {
-    height: 300px;
+    height: 60vh;
     position: relative;
 }
 
@@ -82,19 +71,18 @@
 
     width: 70%;
     text-align: center;
-    font-size: 20px;
 }
 
 #section1 {
-    height: 270px;
-    background-color: black;
+    height: 43vh;
+    background-color: black;    
     background-image: url(img/pf1.svg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     padding-left: 10vw;
     position: relative;
-    margin-bottom: 850px;
+    margin-bottom: 100vh;
 }
 
 .section-content {
@@ -103,32 +91,29 @@
     align-items: initial;
 }
 
-.section-content img {
-    height: 150%;
-    transform: translateY(100px);
-}
-
 #section1 .section-content h2 {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
-    font-size: 150%;
+    font-size: 250%;
     color: white;
-    margin-top: 14vh;
+
+    margin-top: 12vh;
     position: absolute;
-    right: 19vw;
-    text-align: center;
+    right: 12vw;
 }
 
 .section-desc {
     position: absolute;
-    right: 18vw;
-    bottom: -850px;
-    height: 410px;
+    right: 22vw;
+    bottom: -76vh;
+    height: 350px;
+
     background-image: url(img/pfdesc.svg);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
+
     color: #134D3C;
     font-family: 'Rubik';
     font-style: normal;
@@ -136,8 +121,8 @@
 }
 
 .section-desc h3 {
-    transform: translateY(144px);
-    font-size: 20px;
+    transform: translateY(110px);
+    font-size: 135%;
 }
 
 #section2 {
@@ -163,23 +148,25 @@
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
-    font-size: 3vw;
+    font-size: 250%;
     color: white;
 
-    margin-top: 14vh;
+    margin-top: 12vh;
     position: absolute;
     left: 12vw;
 }
 
 .section-desc2 {
     position: absolute;
-    left: 13vw;
-    bottom: -85vh;
-    height: 410px;
+    left: 18vw;
+    bottom: -76vh;
+    height: 350px;
+
     background-image: url(img/pfdesc.svg);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
+
     color: #134D3C;
     font-family: 'Rubik';
     font-style: normal;
@@ -188,13 +175,12 @@
 
 .section-desc2 h3 {
     transform: translateY(110px);
-    font-size: 2vw;
+    font-size: 135%;
 }
 
 .section-content2 img {
     position: absolute;
     right: 5vw;
-    height: 58vw;
 }
 
 #section3 {
@@ -219,8 +205,9 @@
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
-    font-size: 3vw;
+    font-size: 250%;
     color: white;
+
     margin-top: 17vh;
     position: absolute;
     right: 12vw;
@@ -228,13 +215,15 @@
 
 .section-desc3 {
     position: absolute;
-    right: 14vw;
+    right: 22vw;
     bottom: -76vh;
     height: 350px;
+
     background-image: url(img/pfdesc.svg);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
+
     color: #134D3C;
     font-family: 'Rubik';
     font-style: normal;
@@ -243,11 +232,11 @@
 
 .section-desc3 h3 {
     transform: translateY(110px);
-    font-size: 2vw;
+    font-size: 135%;
 }
 
 .section-content3 img {
-    height: 119vw;
+    height: 120vh;
 }
 
 footer {
@@ -258,7 +247,6 @@ footer {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
-    font-size: 1.5vw;
 
     position: relative;    
 }
@@ -295,3 +283,20 @@ a {
 
 /* RESPONSIVO */
 
+@media screen and (max-width: 850px) {
+    #hero h1 {
+        position: absolute;
+        top: 50%;
+        transform: translate(20%, -110%);
+        font-size: 6vw;
+        width: 60vw;
+        line-height: 6vw;
+        text-align: center;
+    }
+    #hero div img {
+        height: 55vw;
+        position: absolute;
+        right: 22vw;
+        padding-top: 350px;
+    }
+}
