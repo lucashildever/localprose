@@ -384,4 +384,40 @@ a {
         font-size: 135%;
         text-align: center;
     }
+    #section2 {
+        height: 267px;
+        margin-bottom: 930px;
+    }
+    .section-desc2 h3 {
+        text-align: center;
+    }
+    #section2 .section-content2 h2 {
+       font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6vw;
+        color: white;
+        margin-top: 12vh;
+        position: absolute;
+        right: 16vw;
+        text-align: center;
+    }
+    .section-content2 img {
+        width: 90vw;
+        transform: translate(-10px, 132px);
+    }
+    .section-desc2 {
+        position: absolute;
+        left: 18vw;
+        bottom: -800px;
+        height: 350px;
+        background-image: url(img/pfdesc.svg);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #134D3C;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+    }
 }
